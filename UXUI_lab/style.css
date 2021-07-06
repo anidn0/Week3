@@ -1,0 +1,92 @@
+body {
+    font-family: Lobster;
+    background: lightgrey;
+    margin-left: 80px;
+       
+    }
+
+.navbartop { 
+    height: 30px;
+    margin-bottom: 60px;
+    float: right;
+    margin-right: 0px;
+
+                
+    
+    }
+.flex-container { 
+    display: flex;
+    flex-direction: row;
+   
+    width: 1400px;
+    height: 1600px;
+   
+   }
+   
+
+.flex-item-left {
+    width: 300px;
+    height: 500px;
+  
+
+}
+
+.flex-item-right{
+    
+    width: 50vw;
+    height: 500px;
+   
+   
+}
+
+img { float: left; margin: 5px;}
+
+
+.white {
+    background: white;
+    width: 220px;
+    height: 400px;
+    padding: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.SI {
+    background-color: #000;
+      text-align: center;
+      color: #fff;
+      border-radius: 25px;
+      margin-top: 10px;
+      width: 150px;
+  }
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: white;
+    position: relative;
+    width: 180px;
+}
+#recover {
+    color: #ccc;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    width: 150px;
+    align-items: center;
+ 
+  }
+
+  .end {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  #email {
+    justify-content: left
+   
+

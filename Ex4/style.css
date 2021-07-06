@@ -1,0 +1,83 @@
+
+
+
+body{
+  width: 100%;
+  height: 100%;
+  color: white;
+     }
+.flex-container {
+  display: flex;
+  
+
+
+}
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    width: 100vw;
+    height: 100vh;
+    
+   
+    
+    box-sizing: border-box;
+    width: 700px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  
+    
+
+    /*
+
+      width: 100vw;
+    height: 50vh;
+    width: 150%;
+    height: 50%;
+    grid-template-rows: auto auto auto;
+    width: 100vw;
+    height: 50vh;
+    justify-items: center;
+
+    */
+  }
+
+#one {
+    background-color:#f44336;
+    
+   
+
+}
+
+#two {
+  background-color: #FF9800;
+}
+
+#three {
+  background-color: #FFEB3B;
+}
+
+#four {
+  background-color: #8BC34A;
+}
+
+#five {
+  background-color:#2196F3;
+}
+
+#six {
+  background-color: #9C27B0;
+}
+
+
+/* So long as the screen is not less than 600px show 2 row 3 colum*/
+  @media only screen and (min-width: 600px) {
+      
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+    }
